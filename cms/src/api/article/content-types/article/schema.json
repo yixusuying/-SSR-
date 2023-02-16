@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articles",
+  "info": {
+    "singularName": "article",
+    "pluralName": "articles",
+    "displayName": "Article",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "articleId": {
+      "type": "string"
+    },
+    "createTime": {
+      "type": "integer"
+    },
+    "hotIndex": {
+      "type": "integer"
+    },
+    "viewCount": {
+      "type": "integer"
+    },
+    "agreeCount": {
+      "type": "integer"
+    },
+    "commentCount": {
+      "type": "integer"
+    },
+    "category": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "json"
+    },
+    "title": {
+      "type": "string"
+    },
+    "briefContent": {
+      "type": "string"
+    },
+    "img": {
+      "type": "string"
+    },
+    "author": {
+      "type": "json"
+    },
+    "content": {
+      "type": "text"
+    }
+  }
+}

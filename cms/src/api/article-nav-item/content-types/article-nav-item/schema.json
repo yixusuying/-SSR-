@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "article_nav_items",
+  "info": {
+    "singularName": "article-nav-item",
+    "pluralName": "article-nav-items",
+    "displayName": "articleNavItem"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "categoryName": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "json"
+    }
+  }
+}
